@@ -46,8 +46,10 @@ ol {
 
 .page {
   display: flex;
+  margin: 0;
+  width: 1200px;
+  height: 800px;
   block-size: 100%;
-  margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -153,7 +155,7 @@ input:focus, input:active {
   margin-left:3px;
 }
 
-.search-form__label:hover .search-form__label-text{
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-underline-offset: 3px;
   cursor: pointer;
@@ -270,7 +272,7 @@ input:focus, input:active {
   line-height: 0.9;
   display: -webkit-box;
   -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;  
+  -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
