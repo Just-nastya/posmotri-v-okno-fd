@@ -47,7 +47,6 @@ ol {
 .page {
   display: flex;
   margin: 0;
-  padding-top: 30px;
   block-size: 100%;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
